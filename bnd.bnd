@@ -1,0 +1,10 @@
+Bundle-Name: DaonReturn
+Bundle-SymbolicName: com.daon.mvc.regreso
+Bundle-Version: 1.0.0
+Export-Package: com.daon.mvc.regreso.constants
+
+-metatype: *
+-includeresource:\
+  lib/mail.jar=mail-1.4.7.jar,\
+  
+

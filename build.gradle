@@ -1,0 +1,8 @@
+dependencies {
+	compileOnly group: "com.liferay.portal", name: "release.dxp.api"
+	implementation group: 'javax.mail', name: 'mail', version: '1.4.7'
+	compileOnly project(":modules:DaonApi")
+	compileOnly project(":modules:VerifyXapp")
+
+	cssBuilder group: "com.liferay", name: "com.liferay.css.builder", version: "3.0.2"
+}
